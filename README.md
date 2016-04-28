@@ -4,6 +4,7 @@ MKMC Frontend Unit Testing Framework
 This is a quick step-by-step guide on how to get your testing framework up and running.  It is presumed you are setting up within [Maven][10] build environment, however only the [Maven-Karma plugin][11] integration is dependent on that fact.  This framework can be integrated with any build tool or can run in local isolation.
 
 Tools used: [Node/npm][1], [Karma][2], [Mocha][3], [Chai][4], [Sinon][14]
+
 Karma Plugins: [Karma-Mocha][6], [Karma-Chai][7], [Karma-Chai-Sinon][8], [Sinon-Chai][13], [Karma-JSHint][9], [Chai-jQuery][12]
 
 ----------
