@@ -1,0 +1,48 @@
+(function(expect, describe, it, window) {
+
+	"use strict";
+	
+	describe("app", function() {
+
+		it("should exist", function() {
+
+			expect(window.APP).to.exist;
+			
+		});
+
+
+		describe("greet()", function() {
+
+			var app = window.APP;
+			var testName = "something";
+			
+			it("should return hello <name> for the name passed", function() {
+
+				var cases = [{
+					input: "Name",
+					expected: "hello Name"
+				}, {
+					input: testName,
+					expected: "hello " + testName
+				}, {
+					input: "42",
+					expected: "hello 42"
+				}, {
+					input: 42,
+					expected: "hello 42"
+				}];
+
+				cases.forEach(function(testCase) {
+
+					var result = app.greet(testCase.input);
+					expect(result).to.equal(testCase.expected);
+
+				});
+
+			});
+
+		});
+
+	});
+
+})(chai.expect, describe, it, this);
