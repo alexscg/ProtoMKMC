@@ -10,7 +10,7 @@ Karma Plugins: [Karma-Mocha][6], [Karma-Chai][7], [Karma-Chai-Sinon][8], [Sinon-
 ----------
 
 
-Installing Prerequisites
+Installation Prerequisites
 ----------------------------
 
 First you need to install Node.  It comes with [npm][5] which is the best way to install and manage your packages.
