@@ -226,7 +226,7 @@ Please remember that there's more than one way to do the same thing or to do tha
 
   [1]: http://nodejs.org/
   [2]: http://karma-runner.github.io/
-  [3]: http://visionmedia.github.io/mocha/
+  [3]: http://mochajs.org/
   [4]: http://chaijs.com/
   [5]: https://www.npmjs.org/
   [6]: https://www.npmjs.org/package/karma-mocha
